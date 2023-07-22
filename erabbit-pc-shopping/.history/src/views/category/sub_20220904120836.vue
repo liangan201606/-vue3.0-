@@ -1,0 +1,21 @@
+<template>
+  <div class="Sub-Category">
+    <div class="container">
+      <!-- 面包屑 -->
+      <SubBread></SubBread>
+    </div>
+  </div>
+</template>
+
+<script>
+import SubBread from './components/sub-bread'
+import subFilter from './components/sub-filter.vue';
+export default {
+  name: 'SubCategory',
+  components: {
+    SubBread
+  }
+}
+</script>
+
+<style></style>
